@@ -15,6 +15,17 @@ int main() {
     cout << "Length : " << r1.length << endl;
     cout << "Breadth : " << r1.breadth << endl;
 
+    // Pointer To Structure
+    struct Rectangle *p = &r1;
+    (*p).length = 20; // or we can use this p->length = 20
+    (*p).breadth = 18;
+
+    // Creating a pointer of rectangle dynamicaly in heap memory
+    struct Rectangle *z;
+    z = new Rectangle;
+    z->length = 21;
+    z->breadth = 19;
+
     // we can also apply the struct like this
     struct Rectangle r2;
     r2.length = 20;
