@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+// Structures is a group of realated data members.
 
 struct Rectangle{
     int length;
