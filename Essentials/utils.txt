@@ -1,0 +1,13 @@
+
+Physical Data Structures -> Arrays and Linked List
+
+Logical Data Structures -> Linear-> Stacks, Queues
+                        -> non-linear -> Trees , Graphs
+                        -> Tabular -> Hash Memory
+
+Each And Every Logical Data Structures are implemented using Physical Data Structures.
+
+ADT: Abstract Data Type
+Data Type : 1. Representation of Data , 2. Operation on Data.
+
+ 
